@@ -1,7 +1,8 @@
 import requests
 
+Q_NUM = 10
 parameters = {
-    "amount": 10,
+    "amount": Q_NUM,
     "type": "boolean"
 }
 response = requests.get(url = "https://opentdb.com/api.php", params = parameters)
